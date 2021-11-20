@@ -44,6 +44,7 @@ let form = document.querySelector("#search-form");
 form.addEventListener("submit", searchCity);
 
 function showTemperature(response) {
+  response.preventDefault();
   console.log(response.data.main.temp);
   let temperature = Math.round(response.data.main.temp);
   let currentPositionTemp = document.querySelector("#currentTemp");
