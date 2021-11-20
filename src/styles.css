@@ -1,0 +1,80 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  margin: 20px;
+}
+h2 {
+  font-size: 30px;
+  margin: 10px;
+}
+h3 {
+  font-size: 15px;
+  margin: 10px;
+}
+h4 {
+  font-size: 50px;
+  margin: 10px;
+}
+#currentTemp {
+  margin: 30px;
+  font-weight: bold;
+}
+.emoji {
+  margin: 30px;
+}
+
+.forecast {
+  text-align: left;
+  padding-left: 45px;
+}
+
+img {
+  max-width: 100%;
+}
+#results {
+  border: 2px solid #4893ca;
+}
+#search-clouds {
+  background: #4893ca;
+}
+form {
+  text-align: center;
+  padding-top: 30px;
+}
+#search-bar {
+  background: #4893ca;
+
+  border-color: white;
+  width: 70%;
+}
+::placeholder {
+  color: white;
+  padding: 10px;
+}
+#searchButton {
+  border: 3px solid white;
+  border-radius: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: transparent;
+  margin-left: 10px;
+}
+
+#currentPosition {
+  border: 3px solid white;
+  border-radius: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: transparent;
+  margin: 40px;
+  color: white;
+}
+input {
+  border-color: white;
+}
